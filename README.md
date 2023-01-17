@@ -1,5 +1,3 @@
-This is my readme file
-added new words 
 # Makeup-Brand-search-Bar-first-Project-
 
 ## Introduction
