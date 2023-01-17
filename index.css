@@ -49,3 +49,21 @@ a{
     position: relative;
     z-index: 1;
 }
+#hero::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .7;
+    z-index: -1;
+}
+#hero h1{
+    display: block;
+    width: fit-content;
+    font-size: 10rem;
+    position: relative;
+    color: pink;
+}
