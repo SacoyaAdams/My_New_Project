@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
         price.textContent = dataItem.price
         let rating = document.createElement('p');
         rating.textContent = dataItem.rating
+        let element = document.getElementById('result')
 
 
 
