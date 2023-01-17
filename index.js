@@ -18,6 +18,8 @@ document.addEventListener("DOMContentLoaded", function() {
         name.textContent = dataItem.name
         let price = document.createElement('p');
         price.textContent = dataItem.price
+        let rating = document.createElement('p');
+        rating.textContent = dataItem.rating
 
 
 
