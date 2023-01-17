@@ -22,3 +22,16 @@
 .navbar a:hover{
     background: #3f4035;
 }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: white
+}
+a{
+    text-decoration: none;
+}
