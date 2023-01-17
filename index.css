@@ -19,3 +19,6 @@
     font-family: arial;
     text-align: center;
 }
+.navbar a:hover{
+    background: #3f4035;
+}
