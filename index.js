@@ -21,6 +21,17 @@ document.addEventListener("DOMContentLoaded", function() {
         let rating = document.createElement('p');
         rating.textContent = dataItem.rating
         let element = document.getElementById('result')
+        element.appendChild(image)
+        element.appendChild(name)
+        element.appendChild(price)
+        element.appendChild(rating)
+        
+      
+      })
+      
+      })
+    })
+  })
 
 
 
