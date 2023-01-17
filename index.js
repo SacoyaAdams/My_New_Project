@@ -16,3 +16,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 image.src= dataItem.image_link
                 let name = document.createElement('p');
         name.textContent = dataItem.name
+        let price = document.createElement('p');
+        price.textContent = dataItem.price
+
+
+
