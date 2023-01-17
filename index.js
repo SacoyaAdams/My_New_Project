@@ -11,3 +11,6 @@ document.addEventListener("DOMContentLoaded", function() {
           .then(res => res.json())
           .then(data => {
             console.log(data)
+            data.forEach(dataItem => {
+                let image = document.createElement('img');
+                image.src= dataItem.image_link
